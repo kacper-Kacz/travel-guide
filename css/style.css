@@ -1,0 +1,30 @@
+/* Smooth scroll */
+body {
+  scroll-behavior: smooth;
+  font-family: 'Roboto Slab', serif;
+}
+
+/* Headings use the same font, optionally bolder */
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Footer text size */
+footer {
+  font-size: 0.9rem;
+}
+
+/* Fade-in effect */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
